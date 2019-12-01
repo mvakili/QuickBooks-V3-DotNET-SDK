@@ -149,7 +149,7 @@ namespace Intuit.Ipp.Core
 
             if (this.IppConfiguration.Security == null)
             {
-                throw new InvalidTokenException("Atleast one security mechanism has to be specified for the SDK to work. Either use config file or use constructor to specify the authentication type.");
+                throw new InvalidTokenException("At least one security mechanism has to be specified for the SDK to work. Either use config file or use constructor to specify the authentication type.");
             }
 
             this.baseserviceURL = this.GetBaseURL();
@@ -191,7 +191,7 @@ namespace Intuit.Ipp.Core
 
             if (this.IppConfiguration.Security == null)
             {
-                throw new InvalidTokenException("Atleast one security mechanism has to be specified for the SDK to work. Either use config file or use constructor to specify the authenticatio type.");
+                throw new InvalidTokenException("At least one security mechanism has to be specified for the SDK to work. Either use config file or use constructor to specify the authenticatio type.");
             }
 
             this.baseserviceURL = this.GetBaseURL();
